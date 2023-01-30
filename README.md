@@ -96,7 +96,7 @@ Windows)
 .
 
 Before running the bot you will need to install all the requirements with this command:
-
+python
 ```
 python -m pip install -r requirements.txt
 ```
@@ -130,3 +130,6 @@ the [tags on this repository](https://github.com/kkrypt0nn/Python-Discord-Bot-Te
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LICENSE.md) file for details
+
+
+
