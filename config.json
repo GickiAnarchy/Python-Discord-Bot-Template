@@ -1,7 +1,5 @@
 {
-  "prefix": "*",
-  "token": "OTE0MDU4NjYzNDI0MDU3" "MzQ0.YaHhdw.hJ_XdwaNFNG4HLRA3gpTKHC69mI",
-  "permissions": "YOUR_BOT_PERMISSIONS_HERE",
+  "prefix": "/",
   "application_id": "911721005658038352",
   "sync_commands_globally": false,
   "owners": [
