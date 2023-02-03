@@ -10,6 +10,7 @@ from discord.ext import commands
 from discord.ext.commands import Context
 
 from helpers import checks
+from drop import colour
 
 
 # Here we name the cog and create a new class for the cog.
@@ -27,8 +28,8 @@ class Anarchy(commands.Cog, "anarchy"):
     @checks.not_blacklisted()
     # This will only allow owners of the bot to execute the command -> config.json
     # @checks.is_owner()
-    async def anarchy(self, context: Context):
-        pass
+    async def anarchy(self, ctx: Context):
+        await ctx.send("Anarchy")
 
 
 # And then we finally add the cog to the bot so that it can load, unload, reload and use it's content.
